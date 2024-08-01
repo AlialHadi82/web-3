@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            padding: 10px;
+        }
+        header nav {
+            float: right;
+        }
+
+        header nav a {
+            margin: 0px 5px;
+            text-decoration: none;
+            color: black;
+        }
+        header nav a:hover {
+            margin: 0px 5px;
+            text-decoration: underline;
+            color: blue;
+        }
+        header nav a.login-btn {
+            display: inline-block;
+            height: 40px;
+            width: 85px;
+            background-color:#0b57d0 ;
+            border-bottom-left-radius: 100px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border-bottom-right-radius: 100px; 
+            color: white;
+           text-align: center;
+           line-height: 40px;
+        }
+        span.box {
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+            border: 5px solid black;
+            margin: 10px;
+            display: inline-block;
+        }
+        span.first-o{
+            color: red;
+        }
+        span.second-o{
+            color: yellow;
+        }
+        span.g {
+            color: blue;
+        }
+        span.l {
+            color:green;
+        }
+        span.e{
+            color: red;
+        }
+        span.G {
+            color: blue;
+        }
+        span#yearText {
+            color: cadetblue;
+        }
+        section.content h1 {
+            text-align: center;
+            font-size: 96px;
+
+        }
+        section.content form {
+            /* background-color:whitesmoke; */
+            width: 50%;
+            margin: 50px auto;
+        }
+
+        section.content {
+            /* min-height: calc(100vh - 60px - 92px); */
+            padding-top: 100px;
+        }
+
+        section.content form input[type=text] {
+            width: 100%;
+            border-radius: 17px;
+            height: 38px    ;
+            padding: 0px 50px;
+            font-size: 20px;
+            outline: none;    
+        }
+
+        footer div {
+            height: 46px;
+            background-color: #f5f5f5;
+            color: white;
+            
+        }
+        footer div.top {
+            color: black;
+            padding-left: 23px;
+            padding-top: 15px;
+            font-size: 16px;
+        }
+        footer div.bottom {
+            padding-top: 15px;
+            padding-left: 15px;
+            color: black;
+            font-size: 15px;
+        }
+        footer div.bottom a:hover {
+            margin: 0px 5px;
+            text-decoration: underline;
+            color: black;
+        }
+        footer div.right {
+            padding-top: 15px;
+            padding-left: 15px;
+            color: black;
+            font-size: 15px;
+        }
+        footer div.right a:hover {
+            margin: 0px 5px;
+            text-decoration: underline;
+            color: black;
+        }
+
+        /* new style here*/
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: black;
+            background-color: #f5f5f5;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        footer { 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            z-index: 10;
+            width: 100%;
+        }
+        .kurbae {
+            padding: 10px;
+        }
+        .kurbae-left1{
+            position: absolute;
+            right: 200px;
+        }
+        .kurbae-left2{
+            position: absolute;
+            right: 80px;
+        }
+        .kurbae-left3{
+            position: absolute;
+            right: 0px;
+        }
+        #bahasa {
+            color: black;
+            display: inline-block;
+            line-height: 28px;
+            font-size: 14px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+ 
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://gmail.com/">Gmail</a>
+            <a href="#">Gambar</a>
+            <a href="#">⩸</a>
+            <a href="#" class="login-btn">Login</a>
+        </nav>
+        <div style="clear: right;"></div>
+    </header>
+    <section class="content">
+        <h1>
+            <span class="G">G</span><span class="first-o">o</span><span class="second-o">o</span><span class="g">g</span><span class="l">l</span><span class="e">e</span>
+        </h1>
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" placeholder="🔎 Search Here">
+        </form>
+    </section>
+    <div class="container">
+        <button class="center-button">Penelusuran Google</button>
+        <button class="center-button">Saya Lagi Beruntung</button>
+    </div>
+    <div id="bahasa">Google tersedia dalam bahasa:  <a href="" style="padding-left: 5px;">English</a>
+                <a href="" style="padding-left: 5px;">Indonesia</a>
+              </div>
+    <footer >        
+        <div class="top" >Indonesia</div>
+        <hr>
+        <div class="bottom">
+            <a class="kurbae">Tentang</a>
+            <a class="kurbae">Periklanan</a>
+            <a class="kurbae">Bisnis</a>
+            <a class="kurbae">Cara kerja Penelusuran </a>
+
+            <a class="kurbae kurbae-left1">Privasi</a>
+            <a class="kurbae kurbae-left2">Persyaratan</a>
+            <a class="kurbae kurbae-left3">Setelan</a>
+            </div>
+    </footer>
+    
+</body>
+</html>
